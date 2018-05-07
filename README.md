@@ -18,7 +18,7 @@ to allow analysis of ABAP code, tests and/or custom code usage within *Teamscale
 ## Contents
 In the *transports* folder, the archive comprises the following transports: 
 
-**CQRK00023** (files K900023.CQR / R900023.CQR)  
+**CQRK00028** (files K900028.CQR / R900028.CQR)  
  This is the main transport, objects are in /CQSE/ namespace and within package /CQSE/TEAMSCALE_CONNECTOR and its subpackages.  
 **Always required, should be transported first.**  
 
