@@ -15,8 +15,11 @@ SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of
 [Teamscale](https://www.teamscale.com) to a SAP Netweaver AS ABAP instance 
 to allow analysis of ABAP code, tests and/or custom code usage within *Teamscale*. 
 
+## Download 
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1805.zip).
+
 ## Contents
-In the *transports* folder, the archive comprises the following transports: 
+The archive comprises the following transports (in the *transports* folder):
 
 **CQRK00028** (files K900028.CQR / R900028.CQR)  
  This is the main transport, objects are in /CQSE/ namespace and within package /CQSE/TEAMSCALE_CONNECTOR and its subpackages.  
