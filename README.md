@@ -1,15 +1,5 @@
 # Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v1805
 
-## License 
-**&copy; 2018 CQSE GmbH**  
-**Usage of this software and all its components is restricted to a 
-valid license for Teamscale (enterprise edition).**
-
-## Version Info
-**Version 1805**, originally provided for Teamscale v4.2.x.  
-Release date: 2018-05-07
-
-## Summary 
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
 [Teamscale](https://www.teamscale.com) to a SAP Netweaver AS ABAP instance 
@@ -17,6 +7,10 @@ to allow analysis of ABAP code, tests and/or custom code usage within *Teamscale
 
 ## Download 
 To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1805.zip).
+
+## Version Info
+Current release: **Version 1805**, originally provided for Teamscale v4.2.x.  
+Release date: 2018-05-07
 
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
@@ -37,3 +31,8 @@ STMS. **Enable special conditions *overwrite originals* and *ignore invalid
 component version*.** 
 
 For further details see Teamscale [user guide](https://www.cqse.eu/download/teamscale/userguide.pdf), chapter 6.
+
+## License 
+**&copy; 2018 CQSE GmbH**  
+**Usage of this software and all its components is restricted to a 
+valid license for Teamscale (enterprise edition).**
