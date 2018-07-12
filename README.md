@@ -6,7 +6,7 @@ SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of
 to allow analysis of ABAP code, tests and/or custom code usage within *Teamscale*. 
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1807.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1807_incl_enh.zip).
 
 ## Version Info
 Current release: **Version 1807**, originally provided for Teamscale v4.3.3.  
