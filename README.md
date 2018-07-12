@@ -23,6 +23,10 @@ The archive comprises the following transports (in the *transports* folder):
 This includes a default role (/CQSE/TEAMSCALE_RFC) for RFC access from Teamscale server to the Teamscale Connector for SAP Netweaver ABAP. This role can be assigned  to technical user accounts which should be used by Teamscale server.  
 **Optional, alternatively an appropriate role can be defined manually.**
 
+**CQRK00038** (files K900038.CQR / R900038.CQR)  
+This includes an optional enhancement of class `CL_COVERAGE_COLLECT` which copies the content of table `COVRES` when coverage is collected by SCOV. The enhancement is placed in package /CQSE/CUSTOMER.  
+**Optional, should be only transported if UPL is active on the SAP system to prevent loss of usage data in rare cases. Typically it is not required.**
+
 ## Installation
 For transport, place the K* files in the 'cofiles' and  the R* files in the 
 'data' directories within the transdir of your host machine (typically 
