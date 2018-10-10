@@ -3,7 +3,10 @@
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
 [Teamscale](https://www.teamscale.com) to a SAP Netweaver AS ABAP instance 
-to allow analysis of ABAP code, tests and/or custom code usage within *Teamscale*. 
+to allow analysis of ABAP code, tests and/or custom code usage within *Teamscale*.
+
+The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with SAP NetWeaver AS ABAP 7.0 EHP2 and later versions.
+It should work on earlier versions, but this has not been tested.
 
 ## Download 
 To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1810.zip).
