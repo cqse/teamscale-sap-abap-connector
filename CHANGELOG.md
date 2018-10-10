@@ -1,3 +1,6 @@
+# v18.10
+* Fix: Findings for ABAP where not shown in the Code Inspector check for displaying Teamscale findings, also the findings were not shown in SE80 or on transport release.
+
 # v18.07
 
 * Fix: When exporting code generated from BW objects, transformations were missing in v18.05
