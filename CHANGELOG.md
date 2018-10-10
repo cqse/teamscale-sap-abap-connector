@@ -1,4 +1,7 @@
-# v18.07
+# v1810
+* Fix: Findings for ABAP where not shown in the Code Inspector check for displaying Teamscale findings, also the findings were not shown in SE80 or on transport release.
+
+# v1807
 
 * Feature: Optional enhancement for class `CL_COVERAGE_COLLECT` to avoid any interference with UPL of SAP Solution Manger 
 * Fix: When exporting code generated from BW objects, transformations were missing in v18.05
