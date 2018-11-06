@@ -1,4 +1,4 @@
-# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v1810
+# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v1811 (pre-release)
 
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
@@ -9,20 +9,20 @@ The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with
 It should work on earlier versions, but this has not been tested.
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1810.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1811pre.zip).
 
 ## Version Info
-Current release: **Version 1810**, originally provided for Teamscale v4.5.6.  
-Release date: 2018-10-10
+Current release: **Version 1811-pre**, originally provided for Teamscale v4.6.1.  
+Release date: 2018-11-05
 
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
 
-**CQRK00042** (files K900042.CQR / R900042.CQR)  
+**CQRK900045** (files K900045.CQR / R900045.CQR)  
  This is the main transport, objects are in /CQSE/ namespace and within package /CQSE/TEAMSCALE_CONNECTOR and its subpackages.  
 **Always required, should be transported first.**  
 
-**CQRK00016** (files K900016.CQR / R900016.CQR)  
+**CQRK900046** (files K900046.CQR / R900046.CQR)  
 This includes a default role (/CQSE/TEAMSCALE_RFC) for RFC access from Teamscale server to the Teamscale Connector for SAP Netweaver ABAP. This role can be assigned  to technical user accounts which should be used by Teamscale server.  
 **Optional, alternatively an appropriate role can be defined manually.**
 
