@@ -1,4 +1,4 @@
-# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v1811 (pre-release)
+# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v1811
 
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
@@ -9,10 +9,10 @@ The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with
 It should work on earlier versions, but this has not been tested.
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1811pre.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1811.zip).
 
 ## Version Info
-Current release: **Version 1811-pre**, originally provided for Teamscale v4.6.1.  
+Current release: **Version 1811**, originally provided for Teamscale v4.6.1.  
 Release date: 2018-11-05
 
 ## Contents
