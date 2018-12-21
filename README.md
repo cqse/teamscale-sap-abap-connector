@@ -1,4 +1,4 @@
-# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v1811
+# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v1812 
 
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
@@ -12,13 +12,13 @@ It should work on earlier versions, but this has not been tested.
 To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1811.zip).
 
 ## Version Info
-Current release: **Version 1811**, originally provided for Teamscale v4.6.1.  
-Release date: 2018-11-05
+Current release: **Version 1812**, originally provided for Teamscale v4.7.2.  
+Release date: 2018-12-21
 
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
 
-**CQRK900045** (files K900045.CQR / R900045.CQR)  
+**CQRK900052** (files K900052.CQR / R900052.CQR)  
  This is the main transport, objects are in /CQSE/ namespace and within package /CQSE/TEAMSCALE_CONNECTOR and its subpackages.  
 **Always required, should be transported first.**  
 
@@ -31,7 +31,7 @@ For transport, place the K* files in the 'cofiles' and  the R* files in the
 'data' directories within the transdir of your host machine (typically 
 /usr/sap/trans or C:\usr\sap\trans) and import the transport with transaction 
 STMS. **Enable special conditions *overwrite originals* and *ignore invalid 
-component version* (if applicable - on some SAP Netweaver&reg; systems this option is not available).** 
+component version*** (if applicable - on some SAP Netweaver&reg; systems this option is not available). 
 
 For further details see Teamscale [user guide](https://www.cqse.eu/download/teamscale/userguide.pdf), chapter 6.
 
