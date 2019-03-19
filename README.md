@@ -35,6 +35,9 @@ component version*** (if applicable - on some SAP Netweaver&reg; systems this op
 
 For further details see Teamscale [user guide](https://www.cqse.eu/download/teamscale/userguide.pdf), chapter 6.
 
+## Uninstall / Removal
+To remove the *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* the deletion transport **NPLK900059** (files K900059.NPL / K900059.NPL) in the *uninstall* folder of the archive can be used. After transporting this to the SAP system, as described under *installation*, all objects of the connector are deleted. 
+
 ## License 
 **&copy; 2019 CQSE GmbH**  
 **Usage of this software and all its components is restricted to a 
