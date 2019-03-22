@@ -35,7 +35,13 @@ component version*** (if applicable - on some SAP Netweaver&reg; systems this op
 
 For further details see Teamscale [user guide](https://www.cqse.eu/download/teamscale/userguide.pdf), chapter 6.
 
-## License 
-**&copy; 2019 CQSE GmbH**  
-**Usage of this software and all its components is restricted to a 
+## License
+**&copy; 2019 CQSE GmbH**
+**Usage of this software and all its components is restricted to a
 valid license for Teamscale (enterprise edition).**
+**This code may only be subjected to static or dynamic analysis is prohibited unless all of the following
+conditions are met:**
+
+1. **express permission has been granted by CQSE GmbH**
+2. **the complete results of the analysis are shared with CQSE GmbH**
+
