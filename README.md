@@ -39,7 +39,7 @@ For further details see Teamscale [user guide](https://www.cqse.eu/download/team
 **&copy; 2019 CQSE GmbH**
 **Usage of this software and all its components is restricted to a
 valid license for Teamscale (enterprise edition).**
-**This code may only be subjected to static or dynamic analysis is prohibited unless all of the following
+**Static or dynamic analysis of this code is prohibited unless all of the following
 conditions are met:**
 
 1. **express permission has been granted by CQSE GmbH**
