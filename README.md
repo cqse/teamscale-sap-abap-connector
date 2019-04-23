@@ -9,7 +9,7 @@ The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with
 It should work on earlier versions, but this has not been tested.
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1905pre.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1904pre.zip).
 
 ## Version Info
 Current release: **Version 1904pre** (pre-release), originally provided for Teamscale v5.0.0 
