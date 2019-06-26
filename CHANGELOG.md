@@ -1,3 +1,9 @@
+# v1906
+* Improvement: Group Teamscale data by SAP transport request
+* Improvement: Export ABAP Dictionary Objects for Architecture Analysis
+* Fix: Importing full ABAP export fails due to duplicated function group include
+* Fix: Inconsistent ABAP function groups may cause termination of ABAP export
+
 # v1902
 * Improvement: Errors and warnings during ABAP export are copied to Teamscale worker logging
 * Improvement: RFC function to unlock export history vis Teamscale service *clear-abap-history-id-lock*
