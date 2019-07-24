@@ -1,3 +1,8 @@
+# v1907
+* Fix: Finding retrieval for central ATC systems (Requires Teamscale 5.2.1)
+* Fix: Unmodified includes of modified standard function groups were exported in full export, but all function modules where reported as deleted in incremental export
+* Improvement: Improved ABAP code to avoid possible security findings
+
 # v1906
 * Improvement: Group Teamscale data by SAP transport request
 * Improvement: Export ABAP Dictionary Objects for Architecture Analysis
