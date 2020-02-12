@@ -1,7 +1,7 @@
 # v2002
-* Feature: Plug-in for SAP updates ABAP code in Teamscale on check request (e.g. triggered from ATC, SE80, Code Inspector, Transport System) to include findings for most recent changes
-* Feature: Package hierarchy can be exported for all objects. This is used in architecture analysis to identify dependencies to 3rd-party-types (e.g. objects in SAP standard) on package level. 
-* Feature: Asynchronous full exports can be scheduled as batch exports. This is the default for asynchronous exports and prevents time-outs occurring in jobs scheduled as background RFC job (bgRFC). 
+* Feature: Plug-in for SAP updates ABAP code in Teamscale on check request (e.g. triggered from ATC, SE80, Code Inspector, Transport System) to include findings for most recent changes, **requires Teamscale Server v5.7.3 or later**.
+* Feature: Package hierarchy can be exported for all objects. This is used in architecture analysis to identify dependencies to 3rd-party-types (e.g. objects in SAP standard) on package level, **requires Teamscale Server v5.7.0 or later**.
+* Feature: Asynchronous full exports can be scheduled as batch exports. This is the default for asynchronous exports and prevents time-outs occurring in jobs scheduled as background RFC job (bgRFC), **requires Teamscale Server v5.7.0 or later**.
 * Improvement: Updated default role definition for Teamscale RFC user to also include authorization to schedule/release batch jobs (required for asynchronous full exports as batch jobs)
 * Improvement: SAP version is included in exporter log file
 * Fix: Missing dependencies to types specified in ABAP type groups
@@ -21,7 +21,7 @@
 * Fix: Inconsistent ABAP function groups may cause termination of ABAP export
 
 # v1902
-* Improvement: Errors and warnings during ABAP export are copied to Teamscale worker logging
+* Improvement: Errors and warnings during ABAP export are copied to Teamscale worker logging 
 * Improvement: RFC function to unlock export history vis Teamscale service *clear-abap-history-id-lock*
 * Fix: Missing coverage export if option *"Include code coverage data in incremental exports, regardless of code changes"* is specified
 * Fix: Show error in Teamscale if export history  id. is locked in SAP system
