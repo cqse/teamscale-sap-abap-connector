@@ -1,3 +1,14 @@
+# v2002
+* Feature: Plug-in for SAP updates ABAP code in Teamscale on check request (e.g. triggered from ATC, SE80, Code Inspector, Transport System) to include findings for most recent changes
+* Feature: Package hierarchy can be exported for all objects. This is used in architecture analysis to identify dependencies to 3rd-party-types (e.g. objects in SAP standard) on package level. 
+* Feature: Asynchronous full exports can be scheduled as batch exports. This is the default for asynchronous exports and prevents time-outs occurring in jobs scheduled as background RFC job (bgRFC). 
+* Improvement: Updated default role definition for Teamscale RFC user to also include authorization to schedule/release batch jobs (required for asynchronous full exports as batch jobs)
+* Improvement: SAP version is included in exporter log file
+* Fix: Missing dependencies to types specified in ABAP type groups
+* Fix: Warnings in Teamscale worker log about files of modifications which cannot be deleted
+* Fix: Failing Code Inspector check for unsupported object types 
+* Fix: Mal-formatted UXX include of function groups may cause an `CX_SY_READ_SRC_LINE_TOO_LONG` exception
+
 # v1907
 * Fix: Finding retrieval for central ATC systems (Requires Teamscale 5.2.1)
 * Fix: Unmodified includes of modified standard function groups were exported in full export, but all function modules where reported as deleted in incremental export

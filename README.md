@@ -1,4 +1,4 @@
-# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v1907
+# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2002
 
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
@@ -9,20 +9,20 @@ The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with
 It should work on earlier versions, but this has not been tested.
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v1907.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2002.zip).
 
 ## Version Info
-Current release: **Version 1907**, originally provided for Teamscale v5.2.1
-Release date: 2019-07-25
+Current release: **Version 2002**, originally provided for Teamscale v5.7.3
+Release date: 2020-02-12
 
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
 
-**CQRK900072** (files K900072.CQR / R900072.CQR)  
+**CQRK900089** (files K900089.CQR / R900089.CQR)  
  This is the main transport, objects are in /CQSE/ namespace and within package /CQSE/TEAMSCALE_CONNECTOR and its subpackages.  
 **Always required, should be transported first.**  
 
-**CQRK900046** (files K900046.CQR / R900046.CQR)  
+**CQRK900092** (files K900092.CQR / R900092.CQR)  
 This includes a default role (/CQSE/TEAMSCALE_RFC) for RFC access from Teamscale server to the Teamscale Connector for SAP Netweaver ABAP. This role can be assigned  to technical user accounts which should be used by Teamscale server.  
 **Optional, alternatively an appropriate role can be defined manually.**
 
@@ -36,7 +36,7 @@ component version*** (if applicable - on some SAP Netweaver&reg; systems this op
 For further details see Teamscale [user guide](https://www.cqse.eu/download/teamscale/userguide.pdf), chapter 6.
 
 ## License
-**&copy; 2019 CQSE GmbH**
+**&copy; 2020 CQSE GmbH**
 
 **Usage of this software and all its components is restricted to a
 valid license for Teamscale (enterprise edition).**
