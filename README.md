@@ -33,7 +33,7 @@ For transport, place the K* files in the 'cofiles' and  the R* files in the
 STMS. **Enable special conditions *overwrite originals* and *ignore invalid 
 component version*** (if applicable - on some SAP Netweaver&reg; systems this option is not available). 
 
-For further details see Teamscale [user guide](https://www.cqse.eu/download/teamscale/userguide.pdf), chapter 6.
+For further details see [section SAP® Integration in the Teamscale documentation](https://docs.teamscale.com/howto/sap/#sap%C2%AE-integration) (for Teamscale server v5.6 or earlier: chapter 6 in the user guide PDF). 
 
 ## License
 **&copy; 2020 CQSE GmbH**
