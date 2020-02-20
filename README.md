@@ -18,7 +18,7 @@ Release date: 2020-02-12
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
 
-**CQRK900089** (files K900089.CQR / R900089.CQR)  
+**CQRK900097** (files K900097.CQR / R900097.CQR)  
  This is the main transport, objects are in /CQSE/ namespace and within package /CQSE/TEAMSCALE_CONNECTOR and its subpackages.  
 **Always required, should be transported first.**  
 
