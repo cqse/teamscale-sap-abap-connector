@@ -26,6 +26,13 @@ The archive comprises the following transports (in the *transports* folder):
 This includes a default role (/CQSE/TEAMSCALE_RFC) for RFC access from Teamscale server to the Teamscale Connector for SAP Netweaver ABAP. This role can be assigned  to technical user accounts which should be used by Teamscale server.  
 **Optional, alternatively an appropriate role can be defined manually.**
 
+**CQRK900077** (files K900077.CQR / R900077.CQR)  
+This includes legacy reports for backwards compatibility. These reports can be
+used to export ABAP code, Code Inspector results and procedure coverage data
+in batch jobs. Since they directly create and modify physical files, they
+are only recommended if the use of logical files is not possible.
+**Optional, only required if older batch jobs are missing reports after the update.**
+
 ## Installation
 For transport, place the K* files in the 'cofiles' and  the R* files in the 
 'data' directories within the transdir of your host machine (typically 
