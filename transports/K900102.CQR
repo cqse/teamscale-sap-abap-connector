@@ -1,0 +1,7 @@
+CQSE         T DMY        1  19 146   0   0   1   0   0   0 161  702   .  0   0   0   0   0 001
+#A
+#/1/                          A   G   D   -   R   -   T   -   Z RELE EX.  _   _   _   _   _ CLI
+CQR f 0000 20200710132233 abap-rel       cqradm
+CQR e 0004 20200710132235 abap-rel       cqradm
+DMY < 0000 20200710132239 abap-rel       cqradm
+CQR E 0004 20200710132239 abap-rel       cqradm

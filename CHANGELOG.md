@@ -1,3 +1,9 @@
+# v2007
+* Fix: Low performance of database access to read object meta data
+* Fix: Avoid deadlocks due to database locks
+* Fix: Dumps in case of assertion violation in CL_TYPE_GATHERER
+* Fix: Wrong transport info in commit message
+
 # v2002
 * Feature: Plug-in for SAP updates ABAP code in Teamscale on check request (e.g. triggered from ATC, SE80, Code Inspector, Transport System) to include findings for most recent changes, **requires Teamscale Server v5.7.3 or later**.
 * Feature: Package hierarchy can be exported for all objects. This is used in architecture analysis to identify dependencies to 3rd-party-types (e.g. objects in SAP standard) on package level, **requires Teamscale Server v5.7.0 or later**.
