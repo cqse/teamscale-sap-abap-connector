@@ -12,7 +12,7 @@ It should work on earlier versions, but this has not been tested.
 To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2007.zip).
 
 ## Version Info
-Current release: **Version 2007**, originally provided for Teamscale v6.0.5
+Current release: **Version 2007**, originally provided for Teamscale v6.0.5  
 Release date: 2020-07-10
 
 ## Contents
@@ -33,7 +33,7 @@ For transport, place the K* files in the 'cofiles' and  the R* files in the
 STMS. **Enable special conditions *overwrite originals* and *ignore invalid 
 component version*** (if applicable - on some SAP Netweaver&reg; systems this option is not available). 
 
-For further details see [section *SAP® Integration* in the Teamscale documentation](https://docs.teamscale.com/howto/sap/#sap%C2%AE-integration) (for Teamscale server v5.6 or earlier: chapter 6 in the user guide PDF). 
+For further details see [section *SAP® Integration* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/). 
 
 ## License
 **&copy; 2020 CQSE GmbH**
