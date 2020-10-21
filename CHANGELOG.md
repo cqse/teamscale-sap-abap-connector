@@ -1,4 +1,5 @@
-# v2007
+# v2010
+* Fix: ABAP full batch export blocks incremental exports
 * Fix: Low performance of database access to read object meta data
 * Fix: Avoid deadlocks due to database locks
 * Fix: Dumps in case of assertion violation in CL_TYPE_GATHERER
