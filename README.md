@@ -1,4 +1,4 @@
-# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2002
+# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2010
 
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
@@ -9,16 +9,16 @@ The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with
 It should work on earlier versions, but this has not been tested.
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2002_incl_enh.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2010_incl_enh.zip).
 
 ## Version Info
-Current release: **Version 2002**, originally provided for Teamscale v5.7.3
-Release date: 2020-02-12
+Current release: **Version 2010**, originally provided for Teamscale v6.3  
+Release date: 2020-10-21
 
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
 
-**CQRK900097** (files K900097.CQR / R900097.CQR)  
+**CQRK900105** (files K900105.CQR / R900105.CQR)  
  This is the main transport, objects are in /CQSE/ namespace and within package /CQSE/TEAMSCALE_CONNECTOR and its subpackages.  
 **Always required, should be transported first.**  
 
@@ -37,7 +37,7 @@ For transport, place the K* files in the 'cofiles' and  the R* files in the
 STMS. **Enable special conditions *overwrite originals* and *ignore invalid 
 component version*** (if applicable - on some SAP Netweaver&reg; systems this option is not available). 
 
-For further details see [section *SAP® Integration* in the Teamscale documentation](https://docs.teamscale.com/howto/sap/#sap%C2%AE-integration) (for Teamscale server v5.6 or earlier: chapter 6 in the user guide PDF). 
+For further details see [section *SAP® Integration* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/). 
 
 ## License
 **&copy; 2020 CQSE GmbH**
