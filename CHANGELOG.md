@@ -1,3 +1,7 @@
+# v2103
+* Feature: Support for **Test Impact Analyis** of ABAP code for manual executed tests, *requires Teamscale Server v6.5.4 or later*.
+* Fix: Missing check group names in Teamscale Code Inspector integration
+
 # v2010
 * Fix: ABAP full batch export blocks incremental exports
 * Fix: Low performance of database access to read object meta data
