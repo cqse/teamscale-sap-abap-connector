@@ -24,7 +24,7 @@ The archive comprises the following transports (in the *transports* folder):
 
 **CQIK900910** (files K900910.CQI / R900910.CQI)  
 This is an extenstion to support Test Impact Analysis (TIA) within Teamscale. Objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_TIA` and its subpackages. 
-**Optional, but recomended to transport if target system is of NW AS ABAP 7.50 or higher. Might not be compatible with earlier versions.**
+**Requires main transport above. Optional, but recomended to transport if target system is of NW AS ABAP 7.50 or higher. Might not be compatible with earlier versions.**
 
 **CQRK900117** (files K900117.CQR / R900117.CQR)  
 This includes a default role (`/CQSE/TEAMSCALE_RFC`) for RFC access from Teamscale server to the Teamscale Connector for SAP Netweaver ABAP. This role can be assigned  to technical user accounts which should be used by Teamscale server.  
