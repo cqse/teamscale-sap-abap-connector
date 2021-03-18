@@ -23,7 +23,7 @@ The archive comprises the following transports (in the *transports* folder):
 
 **Always required, should be transported first.**  
 
-**CQIK900910** (files K900910.CQI / R900910.CQI)  
+**CQIK900928** (files K900928.CQI / R900928.CQI)  
 This is an extenstion to support Test Impact Analysis (TIA) within Teamscale. Objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_TIA` and its subpackages.
 
 **Optional, but requires main transport above. It is recomended to transport if target system is of NW AS ABAP 7.50 or higher. Might not be compatible with earlier versions.**
