@@ -1,4 +1,4 @@
-# v2108
+# v2202
 * Feature: Aggregate findings findings and test gaps for transport requests and tasks
 * Fix: Wrong transport messages were used for code changes
 * Fix: Correct error messges on fetching Teamscale findings via code inspector
