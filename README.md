@@ -1,4 +1,4 @@
-# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2108
+# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2202
 
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
@@ -9,21 +9,21 @@ The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with
 It should work on earlier versions, but this has not been tested. 
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2108.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2202.zip).
 
 ## Version Info
-Current release: **Version 2108**, originally provided for Teamscale v7.2
-Release date: 2021-08-27
+Current release: **Version 2202**, originally provided for Teamscale v7.7
+Release date: 2022-02-17
 
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
 
-**CQRK900135** (files K900135.CQR / R900135.CQR)  
+**CQRK900137** (files K900137.CQR / R900137.CQR)  
  This is the main transport, objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_CONNECTOR` and its subpackages.  
 
 **Always required, should be transported first.**  
 
-**CQIK900954** (files K900954.CQI / R900954.CQI)  
+**CQIK901020** (files K901020.CQI / R901020.CQI)  
 This is an extension to support Test Impact Analysis (TIA) within Teamscale. Objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_TIA` and its subpackages.
 
 **Optional, but requires main transport above. It is recommended to transport if target system is of NW AS ABAP 7.50 or higher. Might not be compatible with earlier versions.**
@@ -43,7 +43,7 @@ component version*** (if applicable - on some SAP Netweaver&reg; systems this op
 For further details see [section *SAP® Integration* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/). 
 
 ## License
-**&copy; 2021 CQSE GmbH**
+**&copy; 2022 CQSE GmbH**
 
 **Usage of this software and all its components is restricted to a
 valid license for Teamscale (enterprise edition).**
