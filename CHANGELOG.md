@@ -1,3 +1,9 @@
+# v2205
+* Fix: Missing authorization object for SAP JCo 3.1 and later
+* Fix: SCI findings messages start with "Uncategorized"
+* Fix: Wrong (outdated) transport request used for commit message
+* Fix: Unnecessary service log entries when using SE80/SCI integration
+
 # v2202
 * Feature: Aggregate findings findings and test gaps for transport requests and tasks
 * Fix: Wrong transport messages were used for code changes
