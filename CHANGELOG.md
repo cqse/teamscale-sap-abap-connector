@@ -5,7 +5,7 @@
 * Fix: Unnecessary service log entries when using SE80/SCI integration
 
 # v2202
-* Feature: Aggregate findings findings and test gaps for transport requests and tasks
+* Feature: Aggregate findings and test gaps for transport requests and tasks
 * Fix: Wrong transport messages were used for code changes
 * Fix: Correct error messges on fetching Teamscale findings via code inspector
 
