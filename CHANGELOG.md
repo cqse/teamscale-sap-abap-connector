@@ -1,5 +1,11 @@
+# v2205
+* Fix: Default role `/CQSE/TEAMSCALE_RFC` adds a new authorization object required for use with SAP JCo 3.1 and later
+* Fix: SCI findings messages started with "Uncategorized" in some cases
+* Fix: Wrong (outdated) transport request were used for commit message in some cases
+* Fix: Teamscale service log contained unnecessary entries when using SE80/SCI integration
+
 # v2202
-* Feature: Aggregate findings findings and test gaps for transport requests and tasks
+* Feature: Aggregate findings and test gaps for transport requests and tasks
 * Fix: Wrong transport messages were used for code changes
 * Fix: Correct error messges on fetching Teamscale findings via code inspector
 
