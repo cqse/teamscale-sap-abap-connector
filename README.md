@@ -9,7 +9,7 @@ The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with
 It should work on earlier versions, but this has not been tested. 
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2205.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2205_incl_tia.zip).
 
 ## Version Info
 Current release: **Version 2205**, originally provided for Teamscale v7.7.11
@@ -23,7 +23,7 @@ The archive comprises the following transports (in the *transports* folder):
 
 **Always required, should be transported first.**  
 
-**CQIK901054** (files K901054.CQI / R901054.CQI)  
+**CQIK901054** (files K901055.CQI / R901055.CQI)  
 This is an extension to support Test Impact Analysis (TIA) within Teamscale. Objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_TIA` and its subpackages.
 
 **Optional, but requires main transport above. It is recommended to transport if target system is of NW AS ABAP 7.50 or higher. Might not be compatible with earlier versions.**
