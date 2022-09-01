@@ -1,3 +1,6 @@
+# v2209
+* Fix: Links for function groups in ATC were wrong
+
 # v2205
 * Fix: Default role `/CQSE/TEAMSCALE_RFC` adds a new authorization object required for use with SAP JCo 3.1 and later
 * Fix: SCI findings messages started with "Uncategorized" in some cases
