@@ -1,3 +1,6 @@
+# v2210
+* Fix: DDIC Table export returned no source code on SAP HANA systems
+
 # v2209
 * Fix: Links for function groups in ATC were wrong
 
