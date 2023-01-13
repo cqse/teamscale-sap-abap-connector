@@ -1,6 +1,6 @@
 # v2301
-* Feature: Extraction of metadata of ABAP objects
-* Feature: Extraction of ABAP CDS (Core Data Service) objects
+* Feature: Extraction of ABAP object metadata
+* Feature: Extraction of ABAP CDS (Core Data Services) objects
 * Fix: Unrelated findings were shown in transport request checks
 
 # v2210
