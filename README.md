@@ -1,4 +1,4 @@
-# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2210
+# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2301
 
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
@@ -9,21 +9,21 @@ The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with
 It should work on earlier versions, but this has not been tested. 
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2210.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2301.zip).
 
 ## Version Info
-Current release: **Version 2210**, originally provided for Teamscale v8.3
-Release date: 2022-10-10
+Current release: **Version 2301**, originally provided for Teamscale v8.5
+Release date: 2023-01-13
 
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
 
-**CQRK900152** (files K900152.CQR / R900152.CQR)  
+**CQRK900153** (files K900153.CQR / R900153.CQR)  
  This is the main transport, objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_CONNECTOR` and its subpackages.  
 
 **Always required, should be transported first.**  
 
-**CQIK901090** (files K901090.CQI / R901090.CQI)  
+**CQIK901181** (files K901181.CQI / R901181.CQI)  
 This is an extension to support Test Impact Analysis (TIA) within Teamscale. Objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_TIA` and its subpackages.
 
 **Optional, but requires main transport above. It is recommended to transport if target system is of NW AS ABAP 7.50 or higher. Might not be compatible with earlier versions.**
@@ -42,8 +42,15 @@ component version*** (if applicable - on some SAP Netweaver&reg; systems this op
 
 For further details see [section *SAP® Integration* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/). 
 
+## Removal
+
+For removal, use the same tansport approach to import the following transport files.
+
+**CQIK900945** (files deletion/K900945.CQI / deletion/R900945.CQI)  
+This is the removal transport for the *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;*. It removes all objects in the `/CQSE/` namespace and its subpackages.
+
 ## License
-**&copy; 2022 CQSE GmbH**
+**&copy; 2023 CQSE GmbH**
 
 **Usage of this software and all its components is restricted to a
 valid license for Teamscale (enterprise edition).**

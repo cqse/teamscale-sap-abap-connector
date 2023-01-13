@@ -1,3 +1,8 @@
+# v2301
+* Feature: Extraction of ABAP object metadata
+* Feature: Extraction of ABAP CDS (Core Data Services) objects
+* Fix: Unrelated findings were shown in transport request checks
+
 # v2210
 * Fix: DDIC Table export returned no source code on SAP HANA systems
 
