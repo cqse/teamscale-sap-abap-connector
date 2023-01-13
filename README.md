@@ -12,7 +12,7 @@ It should work on earlier versions, but this has not been tested.
 To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2301.zip).
 
 ## Version Info
-Current release: **Version 2301**, originally provided for Teamscale v8.3
+Current release: **Version 2301**, originally provided for Teamscale v8.5
 Release date: 2023-01-13
 
 ## Contents
@@ -33,9 +33,6 @@ This includes a default role (`/CQSE/TEAMSCALE_RFC`) for RFC access from Teamsca
 
 **Optional, alternatively an appropriate role can be defined manually, see [section *Authorizations for SAP Teamscale User* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/#authorizations-for-sap-teamscale-user).**
 
-**CQIK900945** (files deletion/K900945.CQI / deletion/R900945.CQI)  
-This is the removal transport for the Teamscale Connector for SAP Netweaver ABAP. It removes all objects in the `/CQSE/` namespace and its subpackages.
-
 ## Installation
 For transport, place the K* files in the 'cofiles' and  the R* files in the 
 'data' directories within the transdir of your host machine (typically 
@@ -44,6 +41,13 @@ STMS. **Enable special conditions *overwrite originals* and *ignore invalid
 component version*** (if applicable - on some SAP Netweaver&reg; systems this option is not available). 
 
 For further details see [section *SAP® Integration* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/). 
+
+## Removal
+
+For removal, use the same tansport approach to import the following transport files.
+
+**CQIK900945** (files deletion/K900945.CQI / deletion/R900945.CQI)  
+This is the removal transport for the Teamscale Connector for SAP Netweaver ABAP. It removes all objects in the `/CQSE/` namespace and its subpackages.
 
 ## License
 **&copy; 2023 CQSE GmbH**
