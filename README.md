@@ -33,6 +33,9 @@ This includes a default role (`/CQSE/TEAMSCALE_RFC`) for RFC access from Teamsca
 
 **Optional, alternatively an appropriate role can be defined manually, see [section *Authorizations for SAP Teamscale User* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/#authorizations-for-sap-teamscale-user).**
 
+**CQIK900945** (files deletion/K900945.CQI / deletion/R900945.CQI)  
+This is the removal transport for the Teamscale Connector for SAP Netweaver ABAP. It removes all objects in the `/CQSE/` namespace and its subpackages.
+
 ## Installation
 For transport, place the K* files in the 'cofiles' and  the R* files in the 
 'data' directories within the transdir of your host machine (typically 
