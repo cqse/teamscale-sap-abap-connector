@@ -42,13 +42,6 @@ component version*** (if applicable - on some SAP Netweaver&reg; systems this op
 
 For further details see [section *SAP® Integration* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/). 
 
-## Removal
-
-For removal, use the same tansport approach to import the following transport files.
-
-**CQIK900945** (files deletion/K900945.CQI / deletion/R900945.CQI)  
-This is the removal transport for the *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;*. It removes all objects in the `/CQSE/` namespace and its subpackages.
-
 ## License
 **&copy; 2023 CQSE GmbH**
 
