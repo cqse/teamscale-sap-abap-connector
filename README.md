@@ -42,6 +42,9 @@ component version*** (if applicable - on some SAP Netweaver&reg; systems this op
 
 For further details see [section *SAP® Integration* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/). 
 
+## Deletion
+If you want to remove the *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;*, we can provide deletion transport files, on demand.
+
 ## License
 **&copy; 2023 CQSE GmbH**
 
