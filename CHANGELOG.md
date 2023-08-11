@@ -1,3 +1,9 @@
+# v2308
+* Feature: Filter findings by last active transport request
+* Fix: SAP Code Inspector findings were missing
+* Fix: SAP Code Inspector findings had wrong code locations
+* Fix: Error message was misleading in case of Teamscale connection issues
+
 # v2301
 * Feature: Extraction of ABAP object metadata
 * Feature: Extraction of ABAP CDS (Core Data Services) objects
