@@ -1,7 +1,7 @@
 # v2308
 * Feature: Filter findings by last active transport request
 * Fix: SAP Code Inspector findings were missing
-* Fix: SAP Code Inspector finding had wrong code locations
+* Fix: SAP Code Inspector findings had wrong code locations
 * Fix: Error message was misleading in case of Teamscale connection issues
 
 # v2301
