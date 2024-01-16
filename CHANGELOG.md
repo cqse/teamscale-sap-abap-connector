@@ -1,5 +1,5 @@
 # v2401
-* Breaking: Requires SAP NetWeaver AS ABAP 7.40 SP2
+* Breaking: Requires SAP NetWeaver AS ABAP 7.40 SP2 or later
 * Fix: Object metadata was sometimes wrong
 
 # v2308
