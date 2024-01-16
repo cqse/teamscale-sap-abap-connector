@@ -1,29 +1,29 @@
-# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2308
+# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2401
 
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
 [Teamscale](https://www.teamscale.com) to a SAP Netweaver AS ABAP instance 
 to allow analysis of ABAP code, tests and/or custom code usage within *Teamscale*.
 
-The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with SAP NetWeaver AS ABAP 7.0 EHP2 and later versions, the extension for Test Impact Analysis (TIA) requires SAP NetWeaver AS ABAP 7.50 or later.
+The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with SAP NetWeaver AS ABAP 7.40 SP2 and later versions, the extension for Test Impact Analysis (TIA) requires SAP NetWeaver AS ABAP 7.50 or later.
 It should work on earlier versions, but this has not been tested. 
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2308.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2401.zip).
 
 ## Version Info
-Current release: **Version 2308**, originally provided for Teamscale v9.0
-Release date: 2023-08-11
+Current release: **Version 2401**, originally provided for Teamscale v9.4
+Release date: 2024-01-16
 
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
 
-**CQRK900161** (files K900161.CQR / R900161.CQR)  
+**CQRK900162** (files K900162.CQR / R900162.CQR)  
  This is the main transport, objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_CONNECTOR` and its subpackages.  
 
 **Always required, should be transported first.**  
 
-**CQIK901181** (files K901181.CQI / R901181.CQI)  
+**CQIK900190** (files K900190.CQI / R900190.CQI)  
 This is an extension to support Test Impact Analysis (TIA) within Teamscale. Objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_TIA` and its subpackages.
 
 **Optional, but requires main transport above. It is recommended to transport if target system is of NW AS ABAP 7.50 or higher. Might not be compatible with earlier versions.**
