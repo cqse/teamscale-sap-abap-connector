@@ -1,3 +1,8 @@
+# v2404
+* Feature: Export of ABAP language version and release contract
+* Fix: Coverage for modifications in ABAP code was not exported
+* Fix: Too many ABAP Dictionary objects were exported
+
 # v2401
 * Breaking: Requires SAP NetWeaver AS ABAP 7.40 SP2 or later
 * Fix: Object metadata was sometimes wrong

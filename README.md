@@ -1,4 +1,4 @@
-# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2401
+# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2404
 
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
@@ -9,16 +9,16 @@ The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with
 It should work on earlier versions, but this has not been tested. 
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2401.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2404.zip).
 
 ## Version Info
-Current release: **Version 2401**, originally provided for Teamscale v9.4
-Release date: 2024-01-16
+Current release: **Version 2404**, originally provided for Teamscale v9.6
+Release date: 2024-04-04
 
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
 
-**CQRK900162** (files K900162.CQR / R900162.CQR)  
+**CQRK900164** (files K900164.CQR / R900164.CQR)  
  This is the main transport, objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_CONNECTOR` and its subpackages.  
 
 **Always required, should be transported first.**  
