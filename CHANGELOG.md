@@ -1,4 +1,5 @@
 # v2404
+* Feature: Export of ABAP language version and release contract
 * Fix: Coverage for modifications in ABAP code was not exported
 * Fix: Too many ABAP Dictionary objects were exported
 
