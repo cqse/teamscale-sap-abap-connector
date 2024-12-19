@@ -1,3 +1,6 @@
+# v2412
+* Feature: Improved parameter display and validation for "Teamscale Findings" ATC check
+
 # v2404
 * Feature: Export of ABAP language version and release contract
 * Fix: Coverage for modifications in ABAP code was not exported

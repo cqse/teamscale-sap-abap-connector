@@ -1,4 +1,4 @@
-# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2404
+# Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg; v2412
 
 This archive contains the transport files for the *Teamscale Connector for 
 SAP Netweaver&reg; AS ABAP&reg;*. This is required for the connection of 
@@ -9,16 +9,16 @@ The *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;* is compatible with
 It should work on earlier versions, but this has not been tested. 
 
 ## Download 
-To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2404.zip).
+To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2412.zip).
 
 ## Version Info
-Current release: **Version 2404**, originally provided for Teamscale v9.6
-Release date: 2024-04-04
+Current release: **Version 2412**, originally provided for Teamscale v2024.9
+Release date: 2024-12-19
 
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
 
-**CQRK900166** (files K900166.CQR / R900166.CQR)  
+**CQRK900167** (files K900167.CQR / R900167.CQR)  
  This is the main transport, objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_CONNECTOR` and its subpackages.  
 
 **Always required, should be transported first.**  
@@ -28,8 +28,8 @@ This is an extension to support Test Impact Analysis (TIA) within Teamscale. Obj
 
 **Optional, but requires main transport above. It is recommended to transport if target system is of NW AS ABAP 7.50 or higher. Might not be compatible with earlier versions.**
 
-**CQRK900145** (files K900145.CQR / R900145.CQR)  
-This includes a default role (`/CQSE/TEAMSCALE_RFC`) for RFC access from Teamscale server to the Teamscale Connector for SAP Netweaver ABAP. This role can be assigned  to technical user accounts which should be used by Teamscale server.  
+**CQRK900172** (files K900172.CQR / R900172.CQR)  
+This includes a default role (`/CQSE/RFC_TEAMSCALE`) for RFC access from Teamscale server to the Teamscale Connector for SAP Netweaver ABAP. This role can be assigned  to technical user accounts which should be used by Teamscale server.  
 
 **Optional, alternatively an appropriate role can be defined manually, see [section *Authorizations for SAP Teamscale User* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/#authorizations-for-sap-teamscale-user).**
 
@@ -46,7 +46,7 @@ For further details see [section *SAP® Integration* in the Teamscale documentat
 If you want to remove the *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;*, we can provide deletion transport files, on demand.
 
 ## License
-**&copy; 2023 CQSE GmbH**
+**&copy; 2024 CQSE GmbH**
 
 **Usage of this software and all its components is restricted to a
 valid license for Teamscale (enterprise edition).**
