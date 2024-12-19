@@ -28,8 +28,8 @@ This is an extension to support Test Impact Analysis (TIA) within Teamscale. Obj
 
 **Optional, but requires main transport above. It is recommended to transport if target system is of NW AS ABAP 7.50 or higher. Might not be compatible with earlier versions.**
 
-**CQRK900145** (files K900145.CQR / R900145.CQR)  
-This includes a default role (`/CQSE/TEAMSCALE_RFC`) for RFC access from Teamscale server to the Teamscale Connector for SAP Netweaver ABAP. This role can be assigned  to technical user accounts which should be used by Teamscale server.  
+**CQRK900172** (files K900172.CQR / R900172.CQR)  
+This includes a default role (`/CQSE/RFC_TEAMSCALE`) for RFC access from Teamscale server to the Teamscale Connector for SAP Netweaver ABAP. This role can be assigned  to technical user accounts which should be used by Teamscale server.  
 
 **Optional, alternatively an appropriate role can be defined manually, see [section *Authorizations for SAP Teamscale User* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/#authorizations-for-sap-teamscale-user).**
 
