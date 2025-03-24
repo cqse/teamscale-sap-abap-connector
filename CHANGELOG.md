@@ -1,3 +1,6 @@
+# v2503
+* Fix: Module pools were not exported by default
+
 # v2412
 * Feature: Improved parameter display and validation for "Teamscale Findings" ATC check
 
