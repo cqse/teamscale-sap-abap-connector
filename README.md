@@ -45,6 +45,17 @@ For further details see [section *SAP® Integration* in the Teamscale documentat
 ## Deletion
 If you want to remove the *Teamscale Connector for SAP Netweaver&reg; AS ABAP&reg;*, we can provide deletion transport files, on demand.
 
+## Migration (Version 2506 or higher)
+When updating to version 2506 or higher from an earlier version, manual migration steps might be necessary.
+For all *Code Inspector* variants that use the check *Teamscale Findings*, the configuration must be adjusted
+to use the new `SM59` connection parameters. The previously configured URL and authentication to the *Teamscale*
+server must be now configured via an HTTP destination created in transaction `SM59`. If your SAP System requires
+an HTTP(S) proxy in order to connect to the *Teamscale* server, the proxy settings now must be configured in the
+HTTP(S) destination. To use PSE (HTTPS certificate), the entry `HTTPS Client (Anonymous)` must be selected. After
+creating the `SM59` destinations, the update can be installed and the destinations must be set in the *Teamscale
+Findings* parameters. For further details see
+[section *Configuring Connection Settings* in the Teamscale documentation](https://docs.teamscale.com/tutorial/sap-integration/#configuring-connection-settings).
+
 ## License
 **&copy; 2025 CQSE GmbH**
 
