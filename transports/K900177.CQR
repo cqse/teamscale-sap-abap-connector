@@ -1,0 +1,7 @@
+CQSE         T DMY        1  17  98   0   0   1   0   0   0 108  740   .  0   0   0   0   0 100
+#A
+#/1/                          A   G   D   C   R   7   T   -   Z RELE EX.  _   _   _   _   _ CLI
+CQR f 0000 20250630093331 sap-abap-rel       cqradm
+CQR e 0000 20250630093333 sap-abap-rel       cqradm
+DMY < 0000 20250630093339 sap-abap-rel       cqradm
+CQR E 0000 20250630093339 sap-abap-rel       cqradm

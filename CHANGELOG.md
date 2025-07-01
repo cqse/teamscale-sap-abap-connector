@@ -1,3 +1,6 @@
+# v2506
+* Feature: Teamscale SCI variant now uses SM59 HTTP destination, **please consider the migration notes in the README file**.
+
 # v2503
 * Fix: Module pools were not exported by default
 
