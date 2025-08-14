@@ -1,3 +1,6 @@
+# v2508
+* Fix: No appropriate error messages were logged for failing batch jobs.
+
 # v2506
 * Feature: Teamscale SCI variant now uses SM59 HTTP destination, **please consider the migration notes in the README file**.
 
