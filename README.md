@@ -12,13 +12,13 @@ It should work on earlier versions, but this has not been tested.
 To get the connector, download the [release Zip archive](https://github.com/cqse/teamscale-sap-abap-connector/archive/v2506.zip).
 
 ## Version Info
-Current release: **Version 2506**, originally provided for Teamscale v2025.5
-Release date: 2025-06-30
+Current release: **Version 2508**, originally provided for Teamscale v2025.6
+Release date: 2025-08-14
 
 ## Contents
 The archive comprises the following transports (in the *transports* folder):
 
-**CQRK900177** (files K900177.CQR / R900177.CQR)  
+**CQRK900178** (files K900178.CQR / R900178.CQR)  
  This is the main transport, objects are in `/CQSE/` namespace and within package `/CQSE/TEAMSCALE_CONNECTOR` and its subpackages.  
 
 **Always required, should be transported first.**  
