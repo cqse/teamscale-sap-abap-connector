@@ -1,3 +1,10 @@
+# v2606
+* Feature: Provide better error details on export issues.
+* Fix: For some systems the wrong ABAP Platform version was exported.
+* Fix: Code changes were assigned to the wrong transport request.
+* Fix: Assertion error happened when including package information for empty type pools.
+* Fix: Unrelated code was exported.
+
 # v2508
 * Fix: No appropriate error messages were logged for failing batch jobs.
 
