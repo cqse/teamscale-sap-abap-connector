@@ -60,7 +60,7 @@ Findings* parameters. For further details see
 **&copy; 2026 CQSE GmbH**
 
 **Usage of this software and all its components is restricted to a
-valid license for Teamscale (enterprise edition).**
+valid license for Teamscale.**
 
 **Static or dynamic analysis of this software or any of its components is prohibited unless the complete results of the analysis are shared with CQSE GmbH.**
 
