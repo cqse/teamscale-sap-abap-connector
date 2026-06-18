@@ -1,9 +1,12 @@
 # v2606
-* Feature: Provide better error details on export issues.
-* Fix: For some systems the wrong ABAP Platform version was exported.
-* Fix: Code changes were assigned to the wrong transport request.
-* Fix: Assertion error happened when including package information for empty type pools.
-* Fix: Unrelated code was exported.
+* Feature: Endpoint for retrieval of ATC check descriptions.
+* Feature: Retrieval of DDLX objects (CDS Metadata extensions).
+* Fix: For some objects on older systems, the wrong ABAP language version was exported.
+* Fix: Some code changes were assigned to the wrong transport request.
+* Fix: Assertion error occurred when including package information for empty type pools.
+* Fix: Unrelated code was exported in some cases.
+* Fix: The "Teamscale Findings" ATC check did not work reliable across function group includes.
+* Fix: Issues during ATC execution were only logged as warnings instead of errors.
 
 # v2508
 * Fix: No appropriate error messages were logged for failing batch jobs.
