@@ -7,7 +7,7 @@
 * Fix: False positive findings for global class check (abaplint) when analyzing test classes
 * Fix: Findings links in the SAP GUI did not point to the code state the findings were fetched for
 * Fix: ATC check was missing findings of CDS objects
-* Fix: SCI variant toggle "Also findings in changed code" cannot be deactivated
+* Fix: ATC check option "Also findings in changed code" could not be deactivated
 * Fix: ATC check option "Filter old transport findings" could hide findings of other transports
 
 # v2606
