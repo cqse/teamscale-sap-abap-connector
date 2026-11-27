@@ -4,7 +4,7 @@
 * Fix: Fixed wrong function group include dependencies for architecture analysis
 * Fix: Annotations were absent from sources of data dictionary objects
 * Fix: False negatives in "No write access to SAP standard tables" check for tables in SAP-owned namespaces
-* Fix: Fixed false positive findings for global class check (abaplint) when analyzing test classes
+* Fix: False positive findings for global class check (abaplint) when analyzing test classes
 * Fix: Finding links were missing the timestamp parameter
 * Fix: Findings of CDS objects were missing in transport release ATC checks
 * Fix: SCI variant toggle "Also findings in changed code" cannot be deactivated
