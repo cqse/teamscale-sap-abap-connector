@@ -6,7 +6,7 @@
 * Fix: False negatives in "No write access to SAP standard tables" check for tables in SAP-owned namespaces
 * Fix: False positive findings for global class check (abaplint) when analyzing test classes
 * Fix: Finding links were missing the timestamp parameter
-* Fix: Findings of CDS objects were missing in transport release ATC checks
+* Fix: ATC check was missing findings of CDS objects
 * Fix: SCI variant toggle "Also findings in changed code" cannot be deactivated
 * Fix: ATC check option "Filter old transport findings" could hide findings of other transports
 
