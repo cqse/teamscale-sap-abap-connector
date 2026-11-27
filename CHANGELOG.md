@@ -1,7 +1,7 @@
 # v2611
 * Feature: Finding links in the ATC check use the Teamscale base URL (requires Teamscale 2026.9)
 * Feature: Add health-check endpoint for ATC check description retrieval
-* Fix: Fixed wrong function group include dependencies for architecture analysis
+* Fix: Dependencies on function group includes were reported in "UNKNOWN_PACKAGE" in the architecture analysis.
 * Fix: Annotations were absent from sources of data dictionary objects from newer SAP systems
 * Fix: False negatives in "No write access to SAP standard tables" check for tables in SAP-owned namespaces
 * Fix: False positive findings for global class check (abaplint) when analyzing test classes
