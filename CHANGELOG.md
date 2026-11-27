@@ -1,3 +1,15 @@
+# v2611
+* Feature: Finding links in the ATC check use the Teamscale base URL (requires Teamscale 2026.9)
+* Feature: Add health-check endpoint for ATC check description retrieval
+* Fix: Dependencies on function group includes were reported in "UNKNOWN_PACKAGE" in the architecture analysis.
+* Fix: Annotations were absent from sources of data dictionary objects from newer SAP systems
+* Fix: False negatives in "No write access to SAP standard tables" check for tables in SAP-owned namespaces
+* Fix: False positive findings for global class check (abaplint) when analyzing test classes
+* Fix: Findings links in the SAP GUI did not point to the code state the findings were fetched for
+* Fix: ATC check was missing findings of CDS objects
+* Fix: ATC check option "Also findings in changed code" could not be deactivated
+* Fix: ATC check option "Filter old transport findings" could hide findings of other transports
+
 # v2606
 * Feature: Endpoint for retrieval of ATC check descriptions.
 * Feature: Retrieval of DDLX objects (CDS Metadata extensions).
