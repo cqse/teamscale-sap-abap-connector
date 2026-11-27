@@ -1,5 +1,5 @@
 # v2611
-* Feature: Finding links in the SAP ATC check use the Teamscale base URL
+* Feature: Finding links in the ATC check use the Teamscale base URL (requires Teamscale 2026.9)
 * Feature: Add configuration options for SAP ATC check description retrieval
 * Fix: Fixed wrong function group include dependencies for architecture analysis
 * Fix: Annotations were absent from sources of data dictionary objects
