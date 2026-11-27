@@ -8,7 +8,7 @@
 * Fix: Finding links were missing the timestamp parameter
 * Fix: Findings of CDS objects were missing in transport release ATC checks
 * Fix: SCI variant toggle "Also findings in changed code" cannot be deactivated
-* Fix: SCI variant toggle "Filter old transport findings" hides findings of other transports
+* Fix: ATC check option "Filter old transport findings" could hide findings of other transports
 
 # v2606
 * Feature: Endpoint for retrieval of ATC check descriptions.
